@@ -1,0 +1,63 @@
+<!--Your Task:
+
+Group Selector: Apply the same styles to both the heading (<h1>) and the paragraph (<p>) elements in the HTML file.
+
+Set the text color to #2c3e50 (dark blue).
+
+Set the font family to Arial, sans-serif.
+
+Add 20px margin to the bottom.
+
+Type-Attribute Selector: Style all input fields in the form based on their type attribute.
+
+For text inputs (<input type="text">), set the background color to #f0f8ff (light blue) and border color to #3498db (blue).
+
+For submit buttons (<input type="submit">), set the background color to #2ecc71 (green) and text color to white.
+
+Ensure you write concise CSS code by grouping the selectors where applicable.
+
+By the end of this exercise, you will understand how to use group selectors to style multiple elements at once, and type-attribute selectors to style input elements based on their type.
+
+Steps:
+
+Open the provided HTML file and review the elements.
+
+Write CSS using a group selector to apply the same styles to both the <h1> and <p> elements.
+
+Use type-attribute selectors to style the <input> elements based on their type (text and submit).
+
+Run the tests to verify your solution.-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sample2</title>
+    <style>
+      h1,
+      p {
+        color: #2c3e50;
+        font-family: Arial, sans-serif;
+        margin-bottom: 20px;
+      }
+
+      input[type="text"] {
+        background-color: #f0f8ff;
+        border-color: #3498db;
+      }
+
+      input[type="submit"] {
+        background-color: #2ecc71;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Savitha</h1>
+    <p>Hi, I am Savitha</p>
+    <p>I am a student</p>
+    <input type="text" />
+    <input type="submit" />
+  </body>
+</html>

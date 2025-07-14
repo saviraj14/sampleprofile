@@ -1,0 +1,36 @@
+<!--Your Task:
+
+Create styles for the <div> element using element, class, and ID selectors.
+
+You will define different styles for each selector type, and the goal is to see which styles take priority based on specificity.
+
+Element Selector: Set the div text color to green.
+
+Class Selector: Set the div text color to blue and add a class box to the div.
+
+ID Selector: Set the div text color to red and add an ID important-box to the div.-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div {
+        color: green;
+      }
+      .box {
+        color: blue;
+      }
+      #important-box {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="important-box" class="box">
+      <p>This is a paragraph inside a div.</p>
+    </div>
+  </body>
+</html>

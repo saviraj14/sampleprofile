@@ -1,0 +1,44 @@
+<!--Your Task:
+
+You are provided with an HTML file that contains a div element with the class name box.
+
+Your task is to ensure that the box element is styled correctly using the following box model properties:
+
+Width: Set the width of the box to 200px.
+
+Padding: Apply padding of 20px to create space between the content and the border.
+
+Border: Add a solid black border with a width of 5px.
+
+Margin: Include a margin of 15px around the box to separate it from other elements.
+
+Background color: Set the background color of the box to lightblue.
+
+You will run a series of tests to verify that these properties are applied correctly. The tests will check the following:
+
+The width of the box.
+
+The padding inside the box.
+
+The border around the box.
+
+The margin around the box.
+
+The background color of the box.-->
+<!DOCTYPE html>
+<html>  
+<head>
+    <style>
+        .box {
+            width: 200px;
+            padding: 20px;
+            border: 5px solid black;
+            margin: 15px;
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">This is a box</div>
+</body>
+</html>
